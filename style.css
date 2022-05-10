@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #191d28;
+    color: white;
+}
+nav{
+    height: 30px;
+    width: 100%;
+}
+nav img{
+    width: 13rem;
+    height: 30px;
+}
+.logo{
+    margin: 2rem;
+    display:flex;
+    align-items: center;
+}
+.container{
+display: flex;
+justify-content: center;
+}
+table {
+    width: 95%;
+    outline: none;
+    background-color: transparent;
+    margin-top: 3rem;
+    border-collapse: separate;
+    border-spacing: 0 .7rem;
+}
+table tr th{
+    font-size: large;
+    font-weight: bolder;
+    color: #9c9ea4;
+}
+table tr td{
+    padding: .8rem;
+    text-align: center;
+    background-color: rgba(255,255,255,.2);
+    font-weight: bolder;
+    
+}
